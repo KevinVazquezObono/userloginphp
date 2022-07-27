@@ -6,15 +6,16 @@ User Register and Login on PHP
 # la plataforma
 
 # ESTRUCTURA DEL PROYECTO
-# (1). el proyecto debe ser contenido en un a carpeta
-# para su ejecución,
-# (2). en esta carpeta se incorpora
-# el archivo index que se encargará de manejar
-# las respuestas del cliente hacia la plataforma,
-# (3). una segunda carpeta contenida dentro de la
-# principal en la que alojar el código fuente,
-# (4). un servicio web que permita la ejecucionde php
-# (5). un servicio de bases de datos en el que guardar
-# los datos de nuestros clientes web,
-# (6). un archivo de configuracion para conexion a
-# la base de datos (es opcional, pero, seguro).
+# El proyecto debe ser contenido en un a carpeta
+# para su ejecución, un servicio web que permita
+# la ejecucionde php y un servicio de bases de
+# datos en el que guardar.
+# (1). el archivo 'home.php' que se encargará de manejar
+# las respuestas del cliente acceder/registrarse.
+# (2). el archivo acceso.php gestionará el acceso
+# a la plataforma cotejando los datos.
+# (3). el archivo registro.php' recojera los datos
+# del cliente web y generará una entrade de usuario
+# en la base de datos de nuestros clientes web.
+# (*). un archivo de configuracion para conexion a
+# la base de datos, es opcional, pero, seguro).
